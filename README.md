@@ -2,24 +2,31 @@
 
 以店內照片為參考製作的互動 3D 咖啡館展示，使用 Three.js 與 WebGL2。
 
-[開啟展示](https://rolanthhuang.github.io/Platform13/) · [下載 Cloudflare Pages 更新包](cloudflare-pages-v13.zip)
+[開啟展示](https://rolanthhuang.github.io/Platform13/) · [櫃檯與雙水槽](https://rolanthhuang.github.io/Platform13/?v=kitchen14#counter) · [烤箱與吊架](https://rolanthhuang.github.io/Platform13/?v=kitchen14#kitchenOvens)
 
-可拖曳旋轉、滾輪縮放，切換全景、窗邊、桌席、櫃檯、後場與貓咪視角，並切換傍晚光線或調整桌上擺飾。
+[下載 Cloudflare Pages v14 更新包](cloudflare-pages-v14.zip)
 
-目前保留 v13 靜態版本。貓咪頭部仍為試修，臉型與神情尚未達到參考照片的相似度。
+目前版本為 v14：依兩張新的櫃檯、廚房照片，以及第二個窄水槽的補充說明，修正設備與收納。
 
-## 檔案
+- 大水槽與內側窄水槽分開，兩槽前後尺寸與盆深一致；瀝水籃只占窄槽後半部。
+- 重排鬆餅機、電磁爐與淺藍鍋、墊高的油炸機；水槽下為木紋門，爐具下為雙門不鏽鋼冰箱。
+- 後方加入兩層、四台烤箱／微波爐，以及開放式收納；修正天花板懸吊餐盤架。
+- 補上灰藍玻璃擋水牆、白色單層杯架、條紋茶壺與淺色方磚工作區。
 
-- `index.html`：包含程式、樣式與展示貼圖的完整網頁，不需要額外安裝或建置。
-- `cloudflare-pages-v13.zip`：既有 Cloudflare Pages 更新包，解壓後根目錄為同一份 `index.html`。
-- `THREE-LICENSE.txt`：Three.js 授權聲明。
+可拖曳旋轉、滾輪縮放，切換觀看角度與傍晚光線，調整桌上擺飾，並下載目前角度的 4K 大圖。
 
-本機預覽可在此資料夾啟動靜態網頁伺服器，再以瀏覽器開啟；需支援 WebGL2。
+## 使用與檔案
 
-## 驗證紀錄
+`index.html` 已內嵌程式、樣式與展示貼圖，不需要額外安裝或建置。以靜態網頁伺服器開啟即可；瀏覽器需支援 WebGL2。
 
-2026-10-13 已確認場景與三個貓咪視角正常載入，當次瀏覽器檢查未發現警告或錯誤。2026-10-15 上傳前再次核對網頁與 ZIP 內容一致，並確認網頁的程式、樣式與貼圖均已內嵌。
+`cloudflare-pages-v14.zip` 解壓後根目錄為同一份 `index.html`，可用於 Cloudflare Pages。先前的 [v13 更新包](cloudflare-pages-v13.zip) 仍保留。
 
-網頁 SHA-256：`1a4b8567f923ca58553c71bf447d01a7fd248d5870b68c4fc93fa6936ab3f853`。
+`THREE-LICENSE.txt` 為 Three.js 授權聲明。
 
-本展示為照片參考重建，場地尺寸為估計值。
+## 範圍
+
+實體尺寸、照片未顯示的管件與部分遮蔽處仍為推估；此模型可作為店內配置的視覺參考。原始參考照片保留於本機工作資料，未隨此次更新上傳。
+
+座位與貓咪沿用先前版本；貓咪頭部仍為 v13 試修，臉型與神情尚未達到參考照片的相似度。
+
+網頁 SHA-256：`09c43b6e6875638ae3088412fd178fba8a662444518c9f1e6f180b66812e8065`。
