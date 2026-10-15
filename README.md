@@ -2,13 +2,13 @@
 
 以店內照片為參考製作的互動 3D 咖啡館展示，使用 Three.js 與 WebGL2。
 
-[開啟展示](https://rolanthhuang.github.io/Platform13/) · [櫃檯與雙水槽](https://rolanthhuang.github.io/Platform13/?v=kitchen14#counter) · [烤箱與吊架](https://rolanthhuang.github.io/Platform13/?v=kitchen14#kitchenOvens)
+[開啟展示](https://rolanthhuang.github.io/Platform13/) · [櫃檯與雙水槽](https://rolanthhuang.github.io/Platform13/?v=kitchen14b#counter) · [烤箱與吊架](https://rolanthhuang.github.io/Platform13/?v=kitchen14b#kitchenOvens)
 
 [下載 Cloudflare Pages v14 更新包](cloudflare-pages-v14.zip)
 
 目前版本為 v14：依兩張新的櫃檯、廚房照片，以及第二個窄水槽的補充說明，修正設備與收納。
 
-- 大水槽與內側窄水槽分開，兩槽前後尺寸與盆深一致；瀝水籃只占窄槽後半部。
+- 主水槽保留在照片位置，旁邊為瀝水區；第二個窄水槽位於油炸機右側、靠懸吊餐盤架的一端。兩槽前後尺寸與盆深一致。
 - 重排鬆餅機、電磁爐與淺藍鍋、墊高的油炸機；水槽下為木紋門，爐具下為雙門不鏽鋼冰箱。
 - 後方加入兩層、四台烤箱／微波爐，以及開放式收納；修正天花板懸吊餐盤架。
 - 補上灰藍玻璃擋水牆、白色單層杯架、條紋茶壺與淺色方磚工作區。
@@ -29,4 +29,4 @@
 
 座位與貓咪沿用先前版本；貓咪頭部仍為 v13 試修，臉型與神情尚未達到參考照片的相似度。
 
-網頁 SHA-256：`09c43b6e6875638ae3088412fd178fba8a662444518c9f1e6f180b66812e8065`。
+網頁 SHA-256：`fe58cb7c863cbd321956a84931e4fc7ae8b206a81ec2e1c3b02b3a1a723c4acf`。
